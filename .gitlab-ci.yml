@@ -15,7 +15,7 @@
 
 variables:
   API_TOKEN: $DEPLOYMENT_TOKEN
-  APP_PATH: '$CI_PROJECT_DIR/src'
+  APP_PATH: '$CI_PROJECT_DIR/'
 
 stages:          # List of stages for jobs, and their order of execution
   - build
